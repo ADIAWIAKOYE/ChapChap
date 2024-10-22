@@ -90,3 +90,8 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+var contact_us = document.querySelector('.contact_us');
+contact_us.addEventListener('click', ()=>{
+    contact_us.href="tel:+22383460944";
+})
